@@ -9,8 +9,8 @@ You can install the `mister-validator` library using npm:
 ```bash
 npm install mister-validator
 
-
-Usage
+```
+#Usage
 First, require the library in your project:
 
 javascript
