@@ -26,9 +26,9 @@ const {
 Then, use the validation functions as needed:
 
 Functions
-```bash
+
 isEmail(value)
-```
+
 Validates if a value is a valid email address.
 
 Parameters:
@@ -36,7 +36,7 @@ Parameters:
 value (string): The value to be validated.
 Returns:
 
-## boolean: true if the value is a valid email, false otherwise.
+ boolean: true if the value is a valid email, false otherwise.
 Example:
 
 ```bash
@@ -51,7 +51,7 @@ Parameters:
 value (string): The value to be validated.
 Returns:
 
-## boolean: true if the value is a valid URL, false otherwise.
+boolean: true if the value is a valid URL, false otherwise.
 Example:
 
 ```bash
@@ -81,7 +81,7 @@ Parameters:
 value (number): The value to be validated.
 Returns:
 
-## boolean: true if the value is a valid integer, false otherwise.
+boolean: true if the value is a valid integer, false otherwise.
 Example:
 
 ```bash
@@ -97,7 +97,7 @@ Parameters:
 value (string): The value to be validated.
 Returns:
 
-## boolean: true if the value is a non-empty string, false otherwise.
+boolean: true if the value is a non-empty string, false otherwise.
 Example:
 
 ```bash
