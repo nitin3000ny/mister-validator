@@ -10,7 +10,7 @@ You can install the `mister-validator` library using npm:
 npm install mister-validator
 
 ```
-#Usage
+# Usage
 First, require the library in your project:
 
 javascript
@@ -29,12 +29,12 @@ Functions
 isEmail(value)
 Validates if a value is a valid email address.
 
-Parameters:
+# Parameters:
 
 value (string): The value to be validated.
 Returns:
 
-boolean: true if the value is a valid email, false otherwise.
+# boolean: true if the value is a valid email, false otherwise.
 Example:
 
 javascript
@@ -44,12 +44,12 @@ console.log(isEmail('invalid-email')); // false
 isURL(value)
 Validates if a value is a valid URL.
 
-Parameters:
+# Parameters:
 
 value (string): The value to be validated.
 Returns:
 
-boolean: true if the value is a valid URL, false otherwise.
+# boolean: true if the value is a valid URL, false otherwise.
 Example:
 
 javascript
@@ -59,7 +59,7 @@ console.log(isURL('invalid-url')); // false
 isNumber(value)
 Validates if a value is a valid number.
 
-Parameters:
+# Parameters:
 
 value (string): The value to be validated.
 Returns:
@@ -74,12 +74,12 @@ console.log(isNumber('abc')); // false
 isInteger(value)
 Validates if a value is a valid integer.
 
-Parameters:
+# Parameters:
 
 value (number): The value to be validated.
 Returns:
 
-boolean: true if the value is a valid integer, false otherwise.
+# boolean: true if the value is a valid integer, false otherwise.
 Example:
 
 javascript
@@ -122,6 +122,5 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Author
-Your Name - nitinraina775@gmail.com
+Author- nitinraina775@gmail.com
 
