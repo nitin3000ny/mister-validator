@@ -1,0 +1,20 @@
+{
+  "name": "mister-validator",
+  "version": "1.0.0",
+  "description": "A simple validation library for common data types.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nitin3000ny/mister-validator.git"
+  },
+  "keywords": [
+    "validation",
+    "validator",
+    "data validation"
+  ],
+  "author": "Nitin Raina",
+  "license": "MIT"
+}
