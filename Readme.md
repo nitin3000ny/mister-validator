@@ -31,7 +31,7 @@ isEmail(value)
 ```
 Validates if a value is a valid email address.
 
-## Parameters:
+Parameters:
 
 value (string): The value to be validated.
 Returns:
@@ -46,12 +46,12 @@ isURL(value)
 ```
 Validates if a value is a valid URL.
 
-## Parameters:
+Parameters:
 
 value (string): The value to be validated.
 Returns:
 
-# boolean: true if the value is a valid URL, false otherwise.
+## boolean: true if the value is a valid URL, false otherwise.
 Example:
 
 ```bash
@@ -61,7 +61,7 @@ isNumber(value)
 ```
 Validates if a value is a valid number.
 
-# Parameters:
+Parameters:
 
 value (string): The value to be validated.
 Returns:
@@ -76,12 +76,12 @@ isInteger(value)
 ```
 Validates if a value is a valid integer.
 
-# Parameters:
+Parameters:
 
 value (number): The value to be validated.
 Returns:
 
-# boolean: true if the value is a valid integer, false otherwise.
+## boolean: true if the value is a valid integer, false otherwise.
 Example:
 
 ```bash
@@ -107,7 +107,7 @@ isDate(value)
 ```
 Validates if a value is a valid date.
 
-## Parameters:
+Parameters:
 
 value (string): The value to be validated.
 Returns:
