@@ -42,8 +42,8 @@ Example:
 ```bash
 console.log(isEmail('test@example.com')); // true
 console.log(isEmail('invalid-email')); // false
-isURL(value)
 ```
+isURL(value)
 Validates if a value is a valid URL.
 
 Parameters:
@@ -57,8 +57,9 @@ Example:
 ```bash
 console.log(isURL('https://www.example.com')); // true
 console.log(isURL('invalid-url')); // false
-isNumber(value)
+
 ```
+isNumber(value)
 Validates if a value is a valid number.
 
 Parameters:
@@ -72,8 +73,9 @@ Example:
 ```bash
 console.log(isNumber('123')); // true
 console.log(isNumber('abc')); // false
-isInteger(value)
+
 ```
+isInteger(value)
 Validates if a value is a valid integer.
 
 Parameters:
@@ -87,9 +89,9 @@ Example:
 ```bash
 console.log(isInteger(123)); // true
 console.log(isInteger(123.45)); // false
-isNonEmptyString(value)
-```
 
+```
+isNonEmptyString(value)
 Validates if a value is a non-empty string.
 
 Parameters:
@@ -103,8 +105,9 @@ Example:
 ```bash
 console.log(isNonEmptyString('hello')); // true
 console.log(isNonEmptyString('  ')); // false
-isDate(value)
+
 ```
+isDate(value)
 Validates if a value is a valid date.
 
 Parameters:
