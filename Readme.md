@@ -25,9 +25,9 @@ const {
 ```
 Then, use the validation functions as needed:
 
-Functions
+## Functions
 
-isEmail(value)
+### isEmail(value)
 
 Validates if a value is a valid email address.
 
@@ -43,7 +43,7 @@ Example:
 console.log(isEmail('test@example.com')); // true
 console.log(isEmail('invalid-email')); // false
 ```
-isURL(value)
+### isURL(value)
 Validates if a value is a valid URL.
 
 Parameters:
@@ -59,7 +59,7 @@ console.log(isURL('https://www.example.com')); // true
 console.log(isURL('invalid-url')); // false
 
 ```
-isNumber(value)
+### isNumber(value)
 Validates if a value is a valid number.
 
 Parameters:
@@ -75,7 +75,7 @@ console.log(isNumber('123')); // true
 console.log(isNumber('abc')); // false
 
 ```
-isInteger(value)
+### isInteger(value)
 Validates if a value is a valid integer.
 
 Parameters:
@@ -91,7 +91,7 @@ console.log(isInteger(123)); // true
 console.log(isInteger(123.45)); // false
 
 ```
-isNonEmptyString(value)
+### isNonEmptyString(value)
 Validates if a value is a non-empty string.
 
 Parameters:
@@ -107,7 +107,7 @@ console.log(isNonEmptyString('hello')); // true
 console.log(isNonEmptyString('  ')); // false
 
 ```
-isDate(value)
+### isDate(value)
 Validates if a value is a valid date.
 
 Parameters:
